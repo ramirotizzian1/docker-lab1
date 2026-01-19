@@ -19,3 +19,20 @@ Proyecto orientado a práctica profesional en backend, DevOps y bases para Kuber
 
 ## 🧱 Arquitectura
 
+
+- La API se comunica con la base usando red interna de Docker  
+- La base de datos persiste datos usando volúmenes  
+- Todo el entorno se levanta con un solo comando
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+### Requisitos
+- Docker Engine  
+- Docker Compose v2  
+
+Verificar instalación:
+```bash
+docker --version
+docker compose version
